@@ -2,7 +2,7 @@ from PyQt5.QtWidgets import *
 
 app = QApplication([]) #обязательная строка
 
-
+###
 
 window=QWidget() #окно
 window1=QWidget()
