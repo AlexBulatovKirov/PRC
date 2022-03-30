@@ -5,7 +5,6 @@ app = QApplication([]) #обязательная строка
 btn1 = QPushButton("Минимальная")
 btn2 = QPushButton("Максимальная")
 btn3 = QPushButton("Текущая")
-
 rad1 = QRadioButton('Киров')
 rad2 = QRadioButton('Москва')
 rad3 = QRadioButton('Казань')
@@ -41,9 +40,6 @@ def onRad3():
     rad3.setChecked(True)
     if rad3.isChecked():
         x = 'Kazan'
-
-
-
 
 def on_click1():
     OWMMOD1(x)
